@@ -19,7 +19,7 @@ body{
 .header{
     width: 100%;
     height: 65px;
-    background:rgb(24, 225, 228);
+    background:rgb(78, 24, 228);
     position: fixed;
 
 }
@@ -30,10 +30,10 @@ body{
     margin: auto;
 }
 .logo{
-    
+    padding:auto;
+    margin:0;  
     float: left;
-    line-height: 80px;
-    
+    line-height:30px;
     width: 60px;
     height:60px;
 
@@ -41,7 +41,8 @@ body{
 }
 
 .logo .icono{
-    padding: 5px;
+    padding:5px;
+    margin: 2px;
     width: 60px;
     height: 60px;
 
@@ -61,18 +62,19 @@ body{
     display: block;
     padding: 0px 20px;
     text-decoration: none;
-    color: #6d6d6d;
+    font-family: ;
+    color: #0bcaf0;
     transition: all 500ms ease;
 
 }
 .menu a:hover{
-    background: rgb(255, 0, 187);
-    color: black
+    background: rgba(255, 0, 187, 0.075);
+    color: rgba(193, 194, 220, 0.221)
 }
 
 
 .menu .submenu{
-    background: white;
+    background: rgb(55, 18, 219);
     box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
     display: none;
 
@@ -85,27 +87,51 @@ body{
 
 
 .centro{
-    position: relative;
-    top: 10%;
     height: 500px;
-    background:white;
-    
-    
+
+       
 }
 
 .centro .titulo_centro{
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
-    top: 39%;
-    background-color:white;
+    top: 59%;
+    color: white;
     padding-left: 15%;
-    width: 500px;
+    width: 700px;
+    
     
     
     
 }
 .centro .parrafo{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
     position:relative;
-    top:45%;
+    width: 700px;
+    top:65%;
+    font-size: auto;
     padding-left: 8%;
     
+}
+
+.centro .foto_prog{
+    position: relative;
+    left: 60%;
+    top: 33%;
+    width: 450px;
+    height: 250px;
+    
+}
+
+.centro .boton{
+    position: relative;
+    top: 30%;
+    left: -10%;
+    width: 110px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+
 }
